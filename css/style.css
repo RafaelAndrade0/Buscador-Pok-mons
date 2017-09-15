@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+    flex: 1 0 auto;
+}
+
+html {
+    font-weight: 300;
+}
+
+#input:focus {
+    border-bottom: 1px solid #9F0F0F;
+    box-shadow: 0 1px 0 0 #AC0909;
+  }
+
+#input:focus + label {
+    color: #B82222;
+  }

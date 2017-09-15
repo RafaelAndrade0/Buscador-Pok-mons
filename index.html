@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Pokemon Search</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">        
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <nav>
+            <div class="nav-wrapper red darken-1">
+                <a href="#!" class="brand-logo center">Buscador de Pokémons</a>
+            </div>
+        </nav>
+        <br><br>
+
+        <div class="container">
+            <div class="row">
+                <div class="col s8 offset-s2 center-align">
+                    <!--<h3>Pokémon Search</h3>-->
+                    <img class="responsive-img" src="logo.jpg">
+                    <input placeholder="Digita o nome do pokémon ai, fi" 
+                    id="input" type="text" class="validate">
+                    <a id="clickBtn" class="waves-effect waves-light btn red darken-3">Bora!</a>
+                
+                    <!-- Show Results -->
+                    <!--<div id="showPokemon"></div>-->
+                
+                </div>
+            </div>
+        </div>
+
+        <!-- Card Pokemon -->
+        <div class="container">
+            <div class="row">
+                <div class="col s6 offset-s3">
+                    <!-- Show Results -->
+                    <div id="showPokemon"></div>
+                </div>
+            </div>
+        </div>
+
+        <main></main>
+
+        <!-- Footer -->
+        <footer class="page-footer red darken-4">
+            <div class="container">
+                <h6 class="white-text left">API fornecida por:
+                    <a href="http://pokeapi.co">Pokéapi</a>
+                </h6>
+            </div>
+        </footer>
+        
+        <script src="js/main.js"></script>
+    </body>
+</html>
